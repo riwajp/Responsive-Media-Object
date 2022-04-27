@@ -1,0 +1,61 @@
+:root{
+	font-size:62.5%;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+}
+
+.media{
+    border:1px solid black;
+   max-width:80rem;
+   padding:1rem;
+   
+   
+   
+  
+}
+.media--large{
+    display:flex;
+    
+
+
+
+}
+.media-image-container{
+
+    flex:3;
+    display:flex;
+    justify-content:center;
+    align-self:center;
+}
+.media__image{
+   
+    max-width:100%;
+    height:auto;
+
+  
+}
+
+.media-texts{
+    padding:2em;
+    flex:2;
+   
+
+}
+
+.media-texts__title{
+    font-size:3rem;
+
+}
+
+.media-texts__description{
+    margin-top:1em;
+    font-size:1.5rem;
+   
+
+}
+
